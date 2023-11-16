@@ -4,14 +4,15 @@
     display: block;
     justify-content: center;
     align-items: center;
-   
+   font-family: Agbalumo;
   }
   h2{
+    font-family: Agbalumo;
     text-align: center;
     font-size: 30px;
     color: cadetblue;
     font-style: oblique;
-border-bottom: 4px solid cadetblue;
+    border-bottom: 4px solid cadetblue;
     text-decoration: solid;
     
 

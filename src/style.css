@@ -1,35 +1,38 @@
 body{
   text-align: center;
-  background-color:azure;
   max-width: 100%;
-
+  font-family: Alkatra;
 }
 header{
     background-image: linear-gradient(to right,rgba(209, 52, 170, 0.2), rgb(52, 157, 141,0.2));
 }
 h1{
-    font-family:Georgia, 'Times New Roman', Times, serif, Arial, sans-serif;
+   font-family: Agbalumo;
     font-size: 50px;
     text-align: center;
     color: rgb(52, 68, 63);
      
 }
-h3{
-    text-align: center;
-    
+
+h2{
+  font-size: 50px;
+  color: aliceblue;
 }
 
 footer{
     background-image: linear-gradient(to right,rgba(209, 52, 170, 0.2), rgb(52, 157, 141,0.2));
     padding: 30px;
-    border-radius: 30px;
+   
 }
 .page-title{
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: 30px;
+    padding: 200px;
     border-radius:0 0 30px 30px;
+    background-color: rgba(188, 44, 152, 0.2) ;
 }
-
+main{
+  background-color: rgb(150, 173, 171);
+}
 .container {
   width: 90%;
   margin: 20px auto; 
@@ -92,7 +95,22 @@ a{
   color: blueviolet;
 }
 
-
+@media screen and (max-width:300px) {
+  body{
+    max-width: 100%;
+    display: block;
+    justify-content: center;
+  }
+  .page-title{
+    margin: 0 auto;
+    padding: 30px 100px;
+    max-width: 100px;
+    text-align: center;
+  }
+  h1{
+    font-size: medium;
+  }
+}
 
 
 
