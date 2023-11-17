@@ -10,13 +10,11 @@ h1{
    font-family: Agbalumo;
     font-size: 50px;
     text-align: center;
-    color: rgb(52, 68, 63);
-     
+    color: rgb(52, 68, 63);   
 }
-
-h2{
-  font-size: 50px;
-  color: aliceblue;
+h1:hover{
+  cursor: pointer;
+  color: rgb(58, 141, 131);
 }
 
 footer{
@@ -24,11 +22,12 @@ footer{
     padding: 30px;
    
 }
-.page-title{
-    margin: 30px;
-    padding: 200px;
+.d-flex-text-center{
+    margin: 40px ;
+    padding:180px 30px;
     border-radius:0 0 30px 30px;
     background-color: rgba(188, 44, 152, 0.2) ;
+    box-shadow:  10px 5px 5px rgb(201, 187, 199);
 }
 main{
   background-color: rgb(150, 173, 171);
@@ -53,7 +52,7 @@ main{
   border-radius: 10px;
   border: solid;
   border-color: rgb(204, 204, 216);
-  box-shadow: 10px 5px 5px rgb(198, 151, 190);
+  box-shadow: 10px 5px 5px rgb(49, 59, 58);
 }
 
 .item-1 {
@@ -91,28 +90,36 @@ main{
 
 }
 a{
-  text-decoration: none;
-  color: blueviolet;
+text-decoration: none;
+  color: rgb(177, 124, 226);
 }
-
-@media screen and (max-width:300px) {
-  body{
-    max-width: 100%;
-    display: block;
-    justify-content: center;
+@media screen and (max-width:300px){
+ 
+  .d-flex-text-center{
+    padding: 40px;
+    font-size: 20px;
   }
-  .page-title{
-    margin: 0 auto;
-    padding: 30px 100px;
-    max-width: 100px;
-    text-align: center;
-  }
+}
+@media screen and (max-width:600px){
   h1{
-    font-size: medium;
+    font-size: 30px;
   }
 }
-
-
+ 
+.text-flicker{
+  font-weight: 600;
+  font-size: 50px;
+  color: rgb(236, 229, 222);
+  animation: flicker 3s infinite;
+}
+@keyframes flicker {
+  from {opacity: 1;}
+  to {opacity: 0.2;}
+}
+.col img{
+  border-radius: 30px;
+}
+ 
 
 
 
