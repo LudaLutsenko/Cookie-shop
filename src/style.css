@@ -109,7 +109,7 @@ text-decoration: none;
 .text-flicker{
   font-weight: 600;
   font-size: 50px;
-  color: rgb(236, 229, 222);
+  color: rgb(62, 33, 33);
   animation: flicker 3s infinite;
 }
 @keyframes flicker {
@@ -120,7 +120,9 @@ text-decoration: none;
   border-radius: 30px;
 }
  
-
+.text {
+  box-shadow: 10px 5px 5px rgb(49, 59, 58);
+}
 
 
 
